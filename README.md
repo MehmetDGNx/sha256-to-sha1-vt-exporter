@@ -13,6 +13,12 @@ vt-hash-analyzer analyzes your SHA256 hash values on VirusTotal, retrieves the c
 
 📊 Export to Excel table
 
+## 📂 Export Location
+
+The Excel file will be saved in the current directory where the script is run. You can specify a custom path by providing it in the --output argument.
+
+**python vt_to_excel.py --output "/path/to/your/folder/output.xlsx"**
+
 ## Requirements
 
 🐍 Python 3.x
